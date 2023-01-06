@@ -1,0 +1,22 @@
+@import "./colors";
+.footer {
+    width: 100%;
+    background-color: $cream-color;
+}
+
+.footer div {
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p {
+    padding-bottom: 2rem;
+    color: $gray-color;
+    font-size: 1.5rem;
+    span {
+        display: block;
+        margin-top: 2.3rem;
+    }
+}

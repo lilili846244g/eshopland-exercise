@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,300&family=Clicker+Script&family=Inter:wght@200;300;400&family=Luxurious+Roman&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:ital,wght@0,300;0,400;0,600;1,400;1,500;1,700&family=Noto+Sans+Chakma&family=Noto+Serif+Display:wght@300&family=Open+Sans:ital,wght@1,300&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400;1,400;1,500&family=Poppins:ital,wght@0,400;0,700;0,800;0,900;1,400;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:ital@0;1&family=Space+Grotesk&display=swap");
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  background: rgb(255, 255, 255);
+}
+.header nav .ul-items {
+  list-style: none;
+}
+.header nav .ul-items .li-items a {
+  text-decoration: none;
+  color: #000;
+  margin: 0 1rem;
+  font-size: 12px;
+}
+.header nav .ul-items .li-items .orange {
+  color: rgba(235, 97, 17, 0.952);
+}
+.header .logo {
+  text-transform: uppercase;
+  margin-right: 2rem;
+  font-family: "Roboto Mono", monospace;
+}
+.header .right {
+  display: flex;
+  align-items: center;
+}
+.header .right .search {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-right: 5rem;
+}
+.header .right .search .search-icon {
+  color: rgb(97, 93, 93);
+  font-size: 15px;
+}
+.header .right .sch-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.header .right-buttons {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+.header .right-buttons button {
+  margin: 0 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.header .right-buttons button a {
+  text-decoration: none;
+  color: rgb(97, 93, 93);
+}
+.header .right-buttons .basket {
+  color: rgb(255, 151, 31);
+  cursor: pointer;
+}/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,300&family=Clicker+Script&family=Inter:wght@200;300;400&family=Luxurious+Roman&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:ital,wght@0,300;0,400;0,600;1,400;1,500;1,700&family=Noto+Sans+Chakma&family=Noto+Serif+Display:wght@300&family=Open+Sans:ital,wght@1,300&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400;1,400;1,500&family=Poppins:ital,wght@0,400;0,700;0,800;0,900;1,400;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:ital@0;1&family=Space+Grotesk&display=swap");
+.main-section {
+  background: linear-gradient(to right bottom, rgba(255, 104, 18, 0.507), rgba(252, 96, 69, 0.363)), url(../assets/main.jpg);
+  height: 80vh;
+  background-size: cover;
+  overflow: hidden;
+}
+.main-section .content {
+  margin: 12rem;
+  text-align: center;
+}
+.main-section .content h1 {
+  font-size: 5rem;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 3px rgb(255, 255, 255);
+}
+.main-section .content button {
+  background: none;
+  padding: 10px 2rem;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  border: 1px solid rgb(255, 255, 255);
+  font-size: 15px;
+  margin-top: 4rem;
+  cursor: pointer;
+}
+.main-section .content button:hover {
+  transform: scale(140%);
+  transition: 1s ease-in-out;
+  color: #000;
+  background: rgb(255, 255, 255);
+}
+.main-section .bottom-text {
+  margin-left: 1rem;
+}
+.main-section .bottom-text p {
+  color: rgb(255, 255, 255);
+}/*# sourceMappingURL=Section.css.map */

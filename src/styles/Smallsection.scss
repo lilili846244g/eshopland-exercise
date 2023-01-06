@@ -1,0 +1,28 @@
+@import "./colors";
+.second-section {
+    background-color: $main-color;
+    width: 100%;
+    padding: 8rem 4rem;
+    .card-wrapper {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+        .card.cart {
+            width: 100%;
+            padding: 2rem;
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+            P {
+                font-size: 16px;
+                margin: 1rem 0;
+            }
+            h1 {
+                font-size: 26px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

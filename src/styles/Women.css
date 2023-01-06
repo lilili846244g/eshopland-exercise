@@ -1,0 +1,49 @@
+.women-section {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../assets/pexels-gotta-be-worth-it-919278.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.women-section .header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
+.women-section .header h1 {
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.5);
+}
+.women-section .header p {
+  color: rgb(255, 255, 255);
+}
+.women-section .look {
+  margin: 15rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 5rem;
+}
+.women-section .look p {
+  font-size: 6rem;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.5);
+}
+.women-section .look button {
+  background: none;
+  padding: 10px 2rem;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  border: 1px solid rgb(255, 255, 255);
+  font-size: 15px;
+  margin-top: 4rem;
+  cursor: pointer;
+}
+.women-section .look button:hover {
+  transform: scale(140%);
+  transition: 1s ease-in-out;
+  color: #000;
+  background: rgb(255, 255, 255);
+}/*# sourceMappingURL=Women.css.map */

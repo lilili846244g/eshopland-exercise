@@ -1,0 +1,9 @@
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+}
+
+@mixin p-text-show {
+    color: $main-color;
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.5);
+}

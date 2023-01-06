@@ -1,0 +1,21 @@
+.footer {
+  width: 100%;
+  background-color: rgb(248, 240, 229);
+}
+
+.footer div {
+  padding: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+p {
+  padding-bottom: 2rem;
+  color: rgb(97, 93, 93);
+  font-size: 1.5rem;
+}
+p span {
+  display: block;
+  margin-top: 2.3rem;
+}/*# sourceMappingURL=Footer.css.map */
